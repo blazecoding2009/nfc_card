@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NFC_ANTENNA")(type "KiCad")(uri "/home/blaze/Downloads/NFC_ANTENNA.kicad_sym")(options "")(descr ""))
+)
