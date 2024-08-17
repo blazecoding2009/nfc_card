@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -78,6 +78,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "nfc_card.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 320,
+          "pos_y": 290,
+          "size_x": 1280,
+          "size_y": 459
+        }
+      },
+      {
+        "name": "nfc_card.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 320,
+          "pos_y": 290,
+          "size_x": 1280,
+          "size_y": 720
+        }
+      }
+    ]
   }
 }
