@@ -81,19 +81,19 @@
     "files": [
       {
         "name": "nfc_card.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
           "pos_x": 320,
           "pos_y": 290,
           "size_x": 1280,
-          "size_y": 459
+          "size_y": 400
         }
       },
       {
         "name": "nfc_card.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": true,
