@@ -438,25 +438,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 -0.508 0)
+			(property "Reference" "U2"
+				(at 6.35 5.0801 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right top)
+					(justify left)
 				)
 			)
 			(property "Value" "NFC_ANTENNA"
-				(at 2.54 9.398 0)
+				(at 6.35 2.5401 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "NFC_ANTENNA:NFC_ANT"
+			(property "Footprint" "Library:25X48MM_NFC_ANTENNA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -901,10 +901,12 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "NFC_ANTENNA_1_0"
 				(pin bidirectional line
 					(at -12.7 5.08 0)
 					(length 5.08)
-					(name "~"
+					(name "P$2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -922,7 +924,7 @@
 				(pin bidirectional line
 					(at -12.7 2.54 0)
 					(length 5.08)
-					(name "~"
+					(name "P$2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1269,6 +1271,18 @@
 		(color 0 0 0 0)
 		(uuid "95858de3-3ad7-4a77-ad7a-835a212905c7")
 	)
+	(no_connect
+		(at 113.03 71.12)
+		(uuid "199e17ea-2994-421e-95ee-4b4d39a1e864")
+	)
+	(no_connect
+		(at 113.03 76.2)
+		(uuid "cfe5228c-8fd3-48e4-a83c-420da9abd3c5")
+	)
+	(no_connect
+		(at 113.03 78.74)
+		(uuid "e11a7c87-cd05-40d5-a84e-2ec0c0acbf38")
+	)
 	(wire
 		(pts
 			(xy 147.32 91.44) (xy 147.32 83.82)
@@ -1427,7 +1441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:NFC_ANT"
+		(property "Footprint" "Library:25X48MM_NFC_ANTENNA"
 			(at 156.21 81.28 0)
 			(effects
 				(font
@@ -1576,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NT3H2111W0FHKH:QFN8P50_160X160X50L40X20N"
+		(property "Footprint" "Library:QFN8P50_160X160X50L40X20N"
 			(at 125.73 78.74 0)
 			(effects
 				(font
@@ -1830,7 +1844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 143.51 101.6 0)
 			(effects
 				(font
@@ -1898,7 +1912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 151.13 103.378 90)
 			(effects
 				(font
